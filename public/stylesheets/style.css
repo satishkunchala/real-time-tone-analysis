@@ -119,14 +119,14 @@ ol ol li:last-child {
 .top {
     margin: 0;
     padding: 0;
-    background: #dd4131;
-    height: 100px;
-    border-bottom: 4px solid #f3776b;
+    height: 150px;
+    border-bottom: 2px solid #f3776b;
     display: flex;
     flex-direction: column;
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
+	background-image: url("../images/header.jpg");
 }
 
 .name {
@@ -141,6 +141,7 @@ ol ol li:last-child {
     flex: 2 0 0;
     flex-direction: column;
     justify-content: flex-start;
+	
 }
 
 a {
