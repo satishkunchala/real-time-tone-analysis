@@ -7,8 +7,8 @@ declared-services:
     label: tone_analyzer
     plan: standard
 applications:
-- name: realtime-tone
-  host: realtime-tone
+- name: ctt-watson-demo
+  host: ctt-watson-demo
   memory: 256M
   instances: 1
   path: .
